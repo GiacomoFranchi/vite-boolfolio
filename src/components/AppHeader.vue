@@ -6,6 +6,14 @@ export default {
                 {
                     name: 'home',
                     title: 'Home'
+                },
+                {
+                    name: 'about',
+                    title: 'AboutUs'
+                },
+                {
+                    name: 'contacts',
+                    title: 'Contatti'
                 }
 
             ]
@@ -32,3 +40,4 @@ export default {
         </div>
     </nav>
 </template>
+

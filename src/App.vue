@@ -1,23 +1,18 @@
 <script>
-import AppMain from './components/AppMain.vue';
+import AppHeader from './components/AppHeader.vue';
 
 export default{
   data(){
     return{};
   },
-  components:{AppMain},
+  components:{AppHeader},
 }
 </script>
 <template>
-  <h1>Progetti:</h1>
-  <AppMain />
+  <AppHeader />
+  <router-view></router-view>
 </template>
 
 <style lang="scss">
 @use "./styles/general.scss" as *;
-
-h1{
-  text-align: center;
-  padding: 1rem 0;
-}
 </style>

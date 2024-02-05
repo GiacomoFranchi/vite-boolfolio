@@ -34,6 +34,7 @@ export default {
                 {{ project.created_at}}
             </p>
             <p><span>Descriozione:</span>:{{ taglioDescrizione }}</p>
+            <router-link :to="{name:'progetto', params:{slug: project.slug}}">Visualizza Progetto</router-link>
         </div>
     </div>
 </template>

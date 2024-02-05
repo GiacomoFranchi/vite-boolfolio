@@ -23,7 +23,7 @@ const router = createRouter({
             component: ContactsPage
         },
         {
-            path: '/show/:slug',
+            path: '/api/projects/:slug',
             name: 'progetto',
             component: SingleProjectPage
         }

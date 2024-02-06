@@ -21,7 +21,7 @@ export default {
 </script>
 
 <template>
-    <div class="card h-100">
+    <div class="card h-100 my-5">
         <img :src="`${store.Url}/storage/${project.img}`" alt="" />
         <div class="card-body">
             <h5>{{ project.title }}</h5>
